@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Manrope:wght@300&display=swap');
+
+body {
+    margin: 5% auto;
+    font-family: 'Manrope', sans-serif;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+img {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+}
+
+a {
+    color:darkgoldenrod;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+td {
+    padding: 5px;
+}
+
+div {
+    margin: 0 25% 0 25%;
+}
+
+.intro {
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+
+}
