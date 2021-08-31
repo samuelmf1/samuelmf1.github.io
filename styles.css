@@ -2,7 +2,8 @@
 
 body {
     text-align: center;
-    margin: 5% auto;
+    margin: 3% auto;
+    padding: 8%;
     font-family: 'Manrope', sans-serif;
     background-color: #f9f9f9;
     color: black;
@@ -24,16 +25,13 @@ a:hover {
 }
 
 td {
-    padding: 5px;
-}
-
-table {
-    padding-left: 33%;
-    padding-right: 25%;
+    padding: 3px;
 }
 
 ul {
     text-align: left;
-    margin-left: 30%;
-    margin-right: 30%;
+}
+
+table {
+    padding: 3%;
 }
