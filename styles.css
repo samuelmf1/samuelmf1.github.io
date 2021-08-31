@@ -2,17 +2,21 @@
 
 body {
     text-align: center;
-    margin: 3% auto;
-    padding: 8%;
+    margin: 5% 0 5% 0;
     font-family: 'Manrope', sans-serif;
-    background-color: #f9f9f9;
     color: black;
+    background: #F8F8F8;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
 }
 
 img {
-    height: 125px;
-    width: 125px;
+    height: 190px;
+    width: 190px;
     border-radius: 50%;
+    border-color: black;
+	box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
 }
 
 a {
@@ -28,10 +32,54 @@ li {
     padding: 3px;
 }
 
+li:hover {
+    padding: 3px;
+    color:gray;
+}
+
 table {
     padding: 3px;
 }
 
 td {
     padding: 3px;
+}
+
+td:hover {
+    padding: 3px;
+    color:gray;
+}
+
+p:hover {
+    color:gray;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	font-family: 'Manrope', sans-serif;
+	font-size: 2.5rem;
+	color: black;
+	position: relative;
+    transition: all 0.45s ease-in-out;
+}
+
+.title::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: black;
+	left: 50%;
+	bottom: -10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.container:hover .title::after {
+	width: 100%;
+	left: 0;
 }
