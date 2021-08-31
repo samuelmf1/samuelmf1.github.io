@@ -24,14 +24,15 @@ a:hover {
     text-decoration: underline;
 }
 
-td {
+li {
+    text-align: left;
     padding: 3px;
 }
 
-ul {
-    text-align: left;
+table {
+    padding: 3px;
 }
 
-table {
-    padding: 3%;
+td {
+    padding: 3px;
 }
