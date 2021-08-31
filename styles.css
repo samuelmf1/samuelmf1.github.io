@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Manrope:wght@300&display=swap');
 
 body {
+    text-align: center;
     margin: 5% auto;
     font-family: 'Manrope', sans-serif;
     background-color: #f9f9f9;
@@ -26,15 +27,13 @@ td {
     padding: 5px;
 }
 
-div {
-    margin: 0 33% 0 33%;
+table {
+    padding-left: 35%;
+    padding-right: 25%;
 }
 
-.intro {
-    text-align: center;
-}
-
-.copyright {
-    text-align: center;
-
+ul {
+    text-align: left;
+    margin-left: 30%;
+    margin-right: 30%;
 }
