@@ -78,3 +78,10 @@ li {
 	width: 100%;
 	left: 0;
 }
+
+/* Experimentation*/
+.medium {
+    font-size: 3rem;
+    color: red;
+    font-weight: bold;
+}
