@@ -54,7 +54,11 @@ li {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-  }
+}
+
+.fmid {
+    padding: 0 50px 0 50px;
+}
 
 /* underline effect */
 .title {
