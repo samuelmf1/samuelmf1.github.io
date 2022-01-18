@@ -3,13 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
 body {
     text-align: center;
     margin: 5% auto 9% auto;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Questrial', sans-serif;
     color: black;
-    background: #F8F0E3;
+    background: #f3f2ef;
 	height: 100vh;
 	justify-content: center;
 	align-items: center;
@@ -57,13 +59,21 @@ li {
     border-radius: 50%;
 }
 
+h2 {
+    padding-top: 25px;
+}
+
+.copyright {
+    padding: 20px 0 10px 0;
+}
+
 /* .fmid {
     padding: 0 50px 0 50px;
 } */
 
 /* underline effect */
 .title {
-	font-family: 'Carter One', cursive;
+	font-family: 'Questrial', sans-serif;
 	font-size: 2rem;
 	color: black;
 	position: relative;
@@ -78,7 +88,7 @@ li {
 	height: 4px;
 	background-color: black;
 	left: 50%;
-	bottom: 0px;
+	bottom: -4px;
 	transition: all 0.4s ease-in-out;
 }
 
