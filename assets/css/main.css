@@ -3468,7 +3468,7 @@ input, select, textarea {
 		margin-left: 18em;
 	}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 2560px) { /*1280*/
 
 			#sidebar + #wrapper {
 				margin-left: 0;
@@ -3800,7 +3800,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 2560px) { /*1280*/
 
 			#sidebar {
 				height: 3.5em;
