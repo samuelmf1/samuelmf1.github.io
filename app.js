@@ -89,7 +89,7 @@ function checkMatch() {
     const cards = document.querySelectorAll('img')
 
     if (cardsChosenIds[0] == cardsChosenIds[1]) {
-        alert("You have clicked on the same image twice!")
+        alert("Snap! You have clicked on the same image twice. Try to avoid doing this, as it lowers your score.")
         cards[cardsChosenIds[0]].setAttribute('src', 'images/blank.png')
         cards[cardsChosenIds[1]].setAttribute('src', 'images/blank.png')
     } else {
@@ -119,7 +119,7 @@ function checkMatch() {
     } else {
         attemptsDisplay.textContent = numAttempts + " attempts"
     }
-    
+
     let scaledScore = Math.round((cardsWon.length / numAttempts) * 100)
     if (numAttempts > 5) {
         scaledScoreDisplay.textContent = "running score: " + scaledScore
