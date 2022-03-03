@@ -27,6 +27,10 @@ p {
     font-family: 'League Spartan', sans-serif;
 }
 
+.congrats {
+    color:crimson;
+}
+
 h1 {
     font-size: 50px;
     font-family: 'Press Start 2P', cursive;
